@@ -1,0 +1,25 @@
+div{
+    width: 45%;
+    float: left;
+    border: 2px solid #000;
+    padding: 25px;
+    margin: 5px;
+}
+#stanga{
+    background-color: blueviolet;
+}
+#dreapta{
+    background-color: bisque;
+}
+.p1{
+    color: brown;
+}
+.p2{
+    color: crimson;
+}
+#bottom{
+    width: 100%;
+}
+#bottom>p{
+    color: red;
+}
