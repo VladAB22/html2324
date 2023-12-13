@@ -1,0 +1,40 @@
+html{
+    width: auto;
+}
+#jpg{
+    background-image: url(../imagini/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+ul {
+    margin: 4px 0 22px 20px;
+    display: flex; 
+  }
+  ul li a{
+    list-style-type: circle;
+    margin: 0 0 6px 0;
+    padding: 0 2px 4px 5px;
+    line-height: 5em;
+}
+li{
+    display: block;
+    text-underline-offset: 3px;
+    font-size: 1.7em;
+}
+nav{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px; 
+}
+body{
+    text-align: center;
+}
+h2{
+    display: block;
+    padding: 700px;
+    color: crimson;
+}
+
