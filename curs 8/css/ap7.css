@@ -1,0 +1,60 @@
+nav{
+    font-family: Silkscreen;
+    background-color: brown;
+    height: 40px;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 15px;
+}
+nav > ul{
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+}
+nav > ul > li{
+    display: inline;
+    float: left;
+}
+nav > ul > li:active, 
+nav > ul > li:hover{
+    background-color: blueviolet;
+}
+nav > ul > li.active > a {
+    color: #000000;
+}
+nav > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 20px ;
+}
+
+/*Submeniu*/
+
+ul.submeniu{
+    text-transform: uppercase;
+    display: none;
+    list-style: none;
+}
+nav > ul > li:hover > ul.submeniu {
+    display: block;
+    background-color: #284554;
+    clear: both;
+    margin-top: 10px;
+    position: absolute;
+    z-index: 100;
+    width: 160px;
+}
+ul.sunmeniu > li > a {
+    padding: 15px 20px;
+    text-decoration: none;
+}
+ul.submeniu > li.hover{
+    background-color: #ff0a0a;
+    color: yellow;
+}
+nav > ul > li:hover > ul.submeniu > li > {
+    padding: 7px 5px 7px 5px;
+    text-decoration: none;
+    color: green;  
+}
