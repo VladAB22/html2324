@@ -1,0 +1,30 @@
+nav{
+    font-family: Silkscreen;
+    background-color: brown;
+    height: 40px;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 15px;
+}
+nav > ul{
+    width: 40%;
+    margin: 0 auto;
+    padding: 0;
+}
+nav > ul > li{
+    display: inline;
+    float: left;
+}
+nav > ul > li:active, 
+nav > ul > li:hover{
+    background-color: blueviolet;
+}
+nav > ul > li.active > a {
+    color: #000000;
+}
+nav > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 20px ;
+}
