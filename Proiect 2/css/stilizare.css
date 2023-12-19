@@ -4,6 +4,7 @@ nav {
     margin: 20px auto;
     font-size: 15px;
 }
+
 ul>li>a {
     padding: 0 10px;
 }
@@ -11,69 +12,81 @@ ul>li>a {
 li {
     font-size: 1.7em;
 }
+
 /*
 body {
     text-align: center;
 }
 */
-nav > ul > li {
+nav>ul>li {
     background-color: cyan;
     display: inline;
     float: left;
 }
-nav > ul > li > a {
+
+nav>ul>li>a {
     color: #170679;
     text-decoration: none;
     list-style: none;
-    padding: 15px 20px ;
+    padding: 15px 20px;
 }
-.prim{
+
+.prim {
     text-align: center;
     border: 2px solid cyan;
     margin: 20px;
 }
-.second{
+
+.second {
     text-align: center;
     border: 2px solid cyan;
     margin: 20px;
 }
-#cont{
+
+#cont {
     font-family: Kalnia;
     text-align: center;
     color: cyan;
 }
-form{
+
+form {
     width: 500px;
     border: 1px solid cyan;
     margin: auto;
 }
-label{
+
+label {
     display: inline-block;
     width: 100px;
     text-align: right;
 }
-input{
+
+input {
     padding: 8px;
     display: inline block;
     width: 200px;
 }
-#h3{
+
+#h3 {
     text-align: center;
     font-family: Kalnia;
     color: cyan;
 }
-#pro{
+
+#pro {
     background-color: cyan;
     text-align: center;
     padding: 30px;
 }
-/*Submeniu*/
-ul.submeniu{
-   text-transform: uppercase;
-   display: none;
-   list-style: none;
+
+/*----------------------------------Submeniu--------------------------*/
+ul.submeniu {
+    text-transform: uppercase;
+    display: none;
+    list-style: none;
 }
-nav > ul > li:hover > ul.submeniu{
+
+nav>ul>li:hover>ul.submeniu {
     display: block;
     background-color: cyan;
     clear: both;
@@ -83,4 +96,23 @@ nav > ul > li:hover > ul.submeniu{
     font-size: 12px;
     text-align: left;
 }
-    
+
+/*--------------------------------------About------------------------------------*/
+
+.centru {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.centru>main {
+    margin: 2px 2px;
+    padding: 2px 2px;
+    float: left;
+    height: 400px;
+}
+.centru > aside{
+    float: left;
+    margin-top: 20px;
+}
